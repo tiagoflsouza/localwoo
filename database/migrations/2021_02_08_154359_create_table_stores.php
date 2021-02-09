@@ -22,7 +22,7 @@ class CreateTableStores extends Migration
             $table->string('mobile_phone');
             $table->string('slug');
             $table->timestamps();
-            $table->foreign('user_id')->references('id')->on('users');
+            $table->foreign('user_id')->references('id')->on('users'); 
         });
     }
 
